@@ -101,11 +101,11 @@ td{
 }
 
 @media screen and (max-width: 600px){
-    .header{margin:10px 25px;}
-    .rostov{width: 90%; height:85px}
+    .header{margin-left:25px; margin-right:25px;}
+    .rostov{width: 90%; height:85px;margin-top: 5px;margin-bottom: 5px;}
     #rostimg{height: 38px;padding-top: 20px;}
     .rostovtitle{padding-top: 5px;}
-    #tablerow,#tablerow1{width: 275px;}
+    #tablerow,#tablerow1{width: 275px; font-size: 7pt;}
     .iconRov{margin-left: 25px;}
     .sun, .snow, .clouds,.wind, .rain, .ston{height: 20px;padding-top: 5px;}
     .rostovtitle,#tempRov,.thirdBlock{font-size: 6pt;}
