@@ -100,18 +100,23 @@ td{
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px){
+    .header{margin:10px 25px;}
+    .rostov{width: 90%; height:85px}
+    #rostimg{height: 38px;padding-top: 20px;}
+    .rostovtitle{padding-top: 5px;}
+    #tablerow,#tablerow1{width: 275px;}
+    .iconRov{margin-left: 25px;}
+    .sun, .snow, .clouds,.wind, .rain, .ston{height: 20px;padding-top: 5px;}
+    .rostovtitle,#tempRov,.thirdBlock{font-size: 6pt;}
+    .main,.wholebody{font-size: 5pt;}
+}
+@media screen and (min-width:600px)and(max-width: 800px) {
     .tr{width: 10%}
     .main,.rostovtitle,#tempRov{font-size: medium;}
     .sun, .snow, .clouds,.wind, .rain, .ston{height: 40px;padding-top: 15px;}
 }
-@media screen and (max-width: 600px){
-    #rostimg{height: 60px;padding-top: 20px;}
-    .rostovtitle{padding-top: 20px;}
-    .tr{width: 15px}
-    .sun, .snow, .clouds,.wind, .rain, .ston{height: 26px;padding-top: 5px;}
-    .main,.rostovtitle,#tempRov,.wholebody{font-size: x-small;}
-}
-@media screen and (max-width: 1000px) {
+
+/*@media screen and (max-width: 1000px) {
     .main,.rostovtitle,#tempRov{font-size: large;}
 }
